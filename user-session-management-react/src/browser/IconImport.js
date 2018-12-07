@@ -1,0 +1,36 @@
+import {
+  faPaw,
+  faBug,
+  faEdit,
+  faHome,
+  faAngleDown,
+  faBars,
+  faSignOutAlt,
+  faUserCog,
+  faInfoCircle,
+  faUserAlt,
+  faUsers,
+  faChevronUp,
+  faChevronDown,
+  faWrench,
+  faTimes,
+} from '@fortawesome/free-solid-svg-icons';
+import {library} from '@fortawesome/fontawesome-svg-core';
+
+library.add(
+  faPaw,
+  faBug,
+  faEdit,
+  faHome,
+  faAngleDown,
+  faBars,
+  faSignOutAlt,
+  faUserCog,
+  faInfoCircle,
+  faUserAlt,
+  faUsers,
+  faChevronUp,
+  faChevronDown,
+  faWrench,
+  faTimes,
+);

@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Get a user authentication status</shortname>
+    <description>
+        Get a user authentication status
+    </description>
+    <url>/aim/users/{id}/check</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

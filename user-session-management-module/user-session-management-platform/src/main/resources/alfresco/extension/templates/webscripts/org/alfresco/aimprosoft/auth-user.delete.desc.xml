@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Delete user authentication</shortname>
+    <description>
+        Delete user authentication
+    </description>
+    <url>/aim/users/{id}/</url>
+    <format default="json">argument</format>
+    <authentication>admin</authentication>
+    <transaction>required</transaction>
+</webscript>

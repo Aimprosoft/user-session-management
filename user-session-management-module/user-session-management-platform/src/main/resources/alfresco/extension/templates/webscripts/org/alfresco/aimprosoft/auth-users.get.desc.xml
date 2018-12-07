@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Get a list of authenticated users</shortname>
+    <description>
+        Get a list of authenticated users
+    </description>
+    <url>/aim/users/active/</url>
+    <format default="json">argument</format>
+    <authentication>admin</authentication>
+    <transaction >required</transaction>
+</webscript>

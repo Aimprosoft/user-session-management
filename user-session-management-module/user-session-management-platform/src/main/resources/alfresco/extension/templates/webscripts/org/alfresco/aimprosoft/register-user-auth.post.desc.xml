@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Register a user authentication status</shortname>
+    <description>
+        Register a user authentication status
+    </description>
+    <url>/aim/users/register/</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

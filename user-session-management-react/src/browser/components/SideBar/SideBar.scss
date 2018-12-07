@@ -1,0 +1,36 @@
+.userCard{
+  padding: 10px;
+}
+.profilePicture{
+  width: max-content;
+  background: #fff;
+  border: 1px solid rgba(52,73,94,.44);
+  padding: 4px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0;
+
+}
+.userInfo{
+  padding: 25px 10px 10px;
+  width: 50px;
+  float: left;
+}
+.userInfo span{
+  display: block;
+}
+.toggled{
+  display: block !important;
+}
+.dropDownButton{
+  width: 100%;
+  border: 0;
+  height: 35px;
+  text-align: left;
+  padding-left: 16px;
+  color: #E7E7E7;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+   <context:component-scan base-package="com.aimprosoft.alfresco"/>
+
+   <bean id="loginController" class="com.aimprosoft.alfresco.controllers.LoginController">
+      <property name="cacheSeconds" value="-1" />
+      <property name="useExpiresHeader" value="true"/>
+      <property name="useCacheControlHeader" value="true"/>
+      <property name="userFactory" ref="user.factory"/>
+      <property name="webFrameworkConfiguration" ref="webframework.config.element"/>
+      <property name="supportedMethods">
+         <list>
+            <value>HEAD</value>
+            <value>POST</value>
+            <value>OPTIONS</value>
+         </list>
+      </property>
+      <property name="userSessionsService" ref="userSessionsService" />
+   </bean>
+
+   <mvc:interceptors>
+      <bean id="deviceResolverHandlerInterceptor" class="org.springframework.mobile.device.DeviceResolverHandlerInterceptor">
+      </bean>
+   </mvc:interceptors>
+
+</beans>

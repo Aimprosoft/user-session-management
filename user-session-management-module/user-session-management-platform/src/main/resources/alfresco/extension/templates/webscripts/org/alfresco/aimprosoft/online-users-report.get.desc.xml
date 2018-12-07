@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Get a online users count for each device entries</shortname>
+    <description>
+        Get a online users count for each device entries
+    </description>
+    <url>/aim/users/report/devices/</url>
+    <format default="json">argument</format>
+    <authentication>admin</authentication>
+    <transaction >required</transaction>
+</webscript>

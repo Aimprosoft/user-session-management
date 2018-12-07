@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Get a count of each day entries</shortname>
+    <description>
+        Get a count of each day entries
+    </description>
+    <url>/aim/users/report/daily/</url>
+    <format default="json">argument</format>
+    <authentication>admin</authentication>
+    <transaction >required</transaction>
+</webscript>

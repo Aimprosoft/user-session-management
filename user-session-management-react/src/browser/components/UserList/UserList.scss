@@ -1,0 +1,40 @@
+.detail span {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding-left: 130px;
+}
+
+.detail p {
+  float: left;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+
+.fieldValue {
+  position: absolute;
+  margin-left: 7em;
+}
+
+.userTable {
+  font-size: 14px;
+}
+
+.userTable th {
+  text-align: center;
+}
+
+.actionButton {
+  border: 0;
+  background-color: transparent;
+}
