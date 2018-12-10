@@ -25,7 +25,7 @@ Use alfresco built-in tools to deploy plugin,
 Using the component
 -------------------
 
-- change host configuration for your alfresco server (in `AlfrescoApiBean.js`)
+- change host configuration for your react server (in AlfrescoApiBean.js), for example http://localhost:3000
 - Run react application (execute command `npm start` in `<project-directory>/user-session-management-react`)
 - go to (`localhost:3000`) and log into react application with administrator permissions
 - In home page you can see logged into share grouped by type
